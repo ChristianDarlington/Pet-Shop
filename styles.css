@@ -1,0 +1,52 @@
+*,
+*::after,
+*::before{
+margin: 0;
+padding: 0;
+box-sizing: inherit;
+}
+
+
+header{
+  position: sticky;
+  top: 0;
+  width: 100%;
+
+  background-color: black;
+  height: 30px;
+  color: #FFFFFF;
+}
+
+ul{
+  list-style-type: none;
+}
+
+main{
+  background-color: black;
+}
+
+li{
+  float: left;
+  padding-left: 3%;
+  padding-top: 0.60%;
+}
+
+section{
+  height: 300px;
+  text-align: center;
+}
+
+.hero-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-image: url(./img/pet_shop.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width:100% ;
+  background-color:black;
+  color: #FFFFFF;
+  background-blend-mode: screen;
+}
